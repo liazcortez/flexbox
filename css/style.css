@@ -1,0 +1,46 @@
+/*global*/
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+.site-header.inicio {
+    background-image: url('../img/header.jpg');
+    background-size: cover;
+    height: 100vh;
+    min-height: 600px;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+
+/* navegacion*/
+
+.navegacion a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    transition: all ease .5s;
+}
+
+.navegacion a:hover {
+    color: #71B100;
+}
+
+.navegacion a:last-child {
+    margin-right: 0px;
+}
