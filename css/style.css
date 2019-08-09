@@ -1,12 +1,54 @@
 /*global*/
 
+img {
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 2;
+}
+
 body {
     font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
 }
 
 .contenedor {
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
+
+/** utilidades**/
+
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fw300 {
+    font-weight: 300;
+}
+
+.centrar-texto {
+    text-align: center
 }
 
 
@@ -16,14 +58,28 @@ body {
     background-image: url('../img/header.jpg');
     background-size: cover;
     height: 100vh;
-    min-height: 600px;
+    min-height: 60rem;
+}
+
+.contenido-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.contenido-header h1 {
+    color: white;
+    padding-bottom: 2rem;
+    max-width: 60rem;
+    line-height: 6rem;
 }
 
 .barra {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 3rem;
 }
 
 
@@ -33,7 +89,7 @@ body {
     text-decoration: none;
     color: white;
     margin-right: 20px;
-    font-size: 18px;
+    font-size: 2rem;
     transition: all ease .5s;
 }
 
@@ -43,4 +99,32 @@ body {
 
 .navegacion a:last-child {
     margin-right: 0px;
+}
+
+
+/** nosotros**/
+
+.iconos-nosotros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono {
+    flex-basis: calc(33.3%-1rem);
+    text-align: center;
+}
+
+.icono h3 {
+    text-transform: uppercase;
+}
+
+
+/**Anuncios**/
+
+.contenedor-anuncio {
+    display: flex;
+}
+
+.anuncio {
+    flex-basis: calc(10.3%-1rem);
 }
